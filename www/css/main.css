@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "nasinNanpa";
+  src: url(nasin-nanpa-4.0.2.woff);
+}
+
+* {
+  font-family: "Courier new";
+}
+
+body {
+  background-color: #1a1a1a;
+}
+
+header {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+div#main {
+  /* background-color: #de0174; */
+  background-color: #791179;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+a:link {
+  color: lightblue;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+a:visited {
+  color: gray;
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+}
+
+.tp {
+  font-family: "nasinNanpa";
+}
