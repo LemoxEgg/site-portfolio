@@ -1,45 +1,102 @@
+:root {
+  --color-pink: #c801a5ff;
+  --color-white: #d8d8d8ff;
+  --color-black: #0d0d0dff;
+  --font-pro: "ProFont IIx Nerd Font";
+  font-family: "Libreation Mono", "Courier new";
+  color: var(--color-white);
+}
+
 @font-face {
   font-family: "nasinNanpa";
   src: url(nasin-nanpa-4.0.2.woff);
 }
 
-* {
-  font-family: "Courier new";
-}
-
 body {
-  background-color: #1a1a1a;
+  background-color: var(--color-black);
+  /* background-size: 100%; */
+  /* grid-column: ; */
 }
 
 header {
   position: absolute;
   right: 10px;
   top: 10px;
+  color: var(--color-white);
+  font-family: var(--font-pro);
+  text-align: right;
+}
+
+ul {
+  list-style-type: none;
+  gap: 20%;
+  padding-right: 10px;
+  padding-top: 30px;
+  align-content: right;
+  text-align: right;
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  color: var(--color-white);
+  text-shadow: 3px 3px 0px var(--color-pink);
+  font-size: clamp(50px, 15vi, 500%);
+  font-family: var(--font-pro);
+}
+
+div#wrapper {
+  width: min(90%, 900px);
+  text-align: left;
+  margin: auto;
 }
 
 div#main {
   /* background-color: #de0174; */
-  background-color: #791179;
-  padding: 10px;
+  /* background-color: #791179; */
+  padding: 0px 0px 10px 0px;
   border-radius: 10px;
-  color: white;
+  color: var(--color-white);
+  width: 90%;
 }
 
-a:link {
-  color: lightblue;
+a:link:not(.service) {
+  color: var(--color-pink);
 }
 
 a:hover {
   font-style: italic;
 }
 
-a:visited {
-  color: gray;
+a:visited:not(.service) {
+  color: var(--color-pink);
 }
 
-#logo {
-  width: 200px;
-  height: 200px;
+#main:has(.service) {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.service {
+  background-color: var(--color-pink);
+  color: var(--color-white);
+  border-radius: 20px;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+
+  &>img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+figure>img {
+  width: 80%;
 }
 
 .tp {
