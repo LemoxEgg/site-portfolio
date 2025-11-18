@@ -3,7 +3,7 @@
   --color-white: #d8d8d8ff;
   --color-black: #0d0d0dff;
   --font-pro: "ProFont IIx Nerd Font";
-  font-family: "Libreation Mono", "Courier new";
+  font-family: "ProFont IIx Nerd Font" "Libreation Mono", "Courier new";
   color: var(--color-white);
 }
 
@@ -13,7 +13,7 @@
 }
 
 @font-face {
-  font-family: "ProFont IIx Nefd Font";
+  font-family: "ProFont IIx Nerd Font";
   src: url(ProFontIIxNerdFontMono-Regular.woff);
 }
 
