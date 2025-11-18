@@ -12,6 +12,11 @@
   src: url(nasin-nanpa-4.0.2.woff);
 }
 
+@font-face {
+  font-family: "ProFont IIx Nefd Font";
+  src: url(ProFontIIxNerdFontMono-Regular.woff);
+}
+
 body {
   background-color: var(--color-black);
   /* background-size: 100%; */
