@@ -42,8 +42,8 @@ ul {
 }
 
 #logo {
-  width: 200px;
-  height: 200px;
+  width: min(200px, 40%);
+  height: min(200px, 40%);
 }
 
 h1 {
