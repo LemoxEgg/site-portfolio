@@ -5,6 +5,7 @@
   --font-pro: "ProFont IIx Nerd Font";
   font-family: "ProFont IIx Nerd Font" "Libreation Mono", "Courier new";
   color: var(--color-white);
+  background-color: var(--color-black);
 }
 
 @font-face {
