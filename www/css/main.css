@@ -58,6 +58,7 @@ div#wrapper {
   width: min(90%, 900px);
   text-align: left;
   margin: auto;
+  font-family: var(--font-pro);
 }
 
 div#main {
